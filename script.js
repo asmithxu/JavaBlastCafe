@@ -1,7 +1,7 @@
 //Code to give welcome prompt when the home page is loaded
 window.addEventListener('load', function() {
   let clientName
-  if (window.location.href.match('.index.html || https://asmithxu.github.io/JavaBlastCafe/') != null) // Check if the page is the home page
+  if (window.location.href.match('.index.html') != null) // Check if the page is the home page
   {clientName = prompt('Welcome to Java Blast Cafe! Please enter your name to continue.');
   }
   let welcomeMessage = document.getElementById('welcomeText');
